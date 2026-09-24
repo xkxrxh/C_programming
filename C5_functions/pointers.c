@@ -2,16 +2,19 @@
 
 int main() {
     
-    int a =5;
-    int b =22;
-    int c = 747;
-
-    printf("%p\n", &a);
-    printf("%p\n", &b);
-    printf("%p\n", &c);
-
+    int a =25;
+    int*x=&a;  
+    *x = 7;  // a is changed 
+    
+    printf("%p\n",x);  //prints address of a 
+    printf("%p\n",&x);  //prints address of a 
+    printf("%p\n", &a);  //prints address of a 
+    printf("%d\n", *x);  //address of variable whichever is stored in x
+    printf("%d\n",a);  //
+    
+    
     return 0;
-}
+} 
 
 
 // %d is for the intergers 
