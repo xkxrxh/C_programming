@@ -4,16 +4,16 @@
 int main()
 {
 
-    int year;
+    int year,p,r,g;
     double amount;
 
-    int p;
+
     printf("Enter the principal amount: ");
     scanf("%d", &p);
-    int r;
+    
     printf("Enter the rate of interest: ");
     scanf("%d", &r);
-    int g;
+    
     printf("Enter the target goal amount: ");
     scanf("%d", &g);
 

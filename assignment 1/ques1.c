@@ -6,7 +6,7 @@ int main()
     float basic, da, ta, gross_salary;
 
     printf("Enter the basic salary of the person: ");
-    scanf("%d", &basic);
+    scanf("%f", &basic);
 
     da = 0.1 * basic;
     ta = 0.12 * basic;
