@@ -10,7 +10,7 @@ int main()
     {
         int is_prime = 1; // we have assumed that the numeber is prime initially
 
-        for (int j = 2; j * j <= i; j++)
+        for (int j = 2; j<= i/2; j++)
         {
             if (i % j == 0)
             {
@@ -25,7 +25,7 @@ int main()
         }
     }
 
-    printf("Total prime numbers found are %d", count);
+    printf("\nTotal prime numbers found are %d", count);
 
     return 0;
 }
