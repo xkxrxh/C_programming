@@ -2,23 +2,18 @@
 
 int main() {
     
-    int count;
+    int n,c=0;
+    printf("Enter the number: ");
+    scanf("%d", &n);
 
-    for(int i =2;i<=500;i++){
-        int is_prime=1;
-        for(int j =2;j*j<=i;j++){
-            if(i%j==0){
-                is_prime=0;
-                break;
-            }
-        }
-        if(is_prime==1){
-
-            printf("%d ",i);
-            count++;
-        }
+    for(int i=1;i<=n;i++){
+        c++;
     }
-    printf("Thr total prime numebrs between 1-500 are %d ", count);
+
+    if(c==2){
+        printf("The number is prime.");
+    }
+    else("The number is not prime.");
 
     return 0;
 }
