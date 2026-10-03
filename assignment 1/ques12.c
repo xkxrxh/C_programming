@@ -8,11 +8,11 @@ int main()
 
     int a, b, c;
 
-    for (int a = 1; a <= 3; a++)
+    for (int a = 1; a <= 5; a++)
     {
-        for (int b = 1; b <= 3; b++)
+        for (int b = 1; b <= 5; b++)
         {
-            for (int c = 1; c <= 3; c++)
+            for (int c = 1; c <= 5; c++)
             {
                 if (a != b && b != c && c != a)
                 {

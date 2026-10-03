@@ -15,7 +15,7 @@ int main() {
     }
     printf("The sum of the digits of the numeber is %d\n", sum);
 
-     int r = 0;
+    int r = 0;
     while(n>0){
         r = r*10;
         r = r + (n%10);

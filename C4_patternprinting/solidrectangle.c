@@ -16,7 +16,7 @@ int main()
 
         for (int i = 1; i <= a; i++)   //inner loop--->no of stars in each line 
         {
-            printf("*");
+            printf("* ");
         }
         printf("\n");
     }
